@@ -6,6 +6,10 @@
    "line": "Maps and hubs to add to your Atlas"
   },
   {
+   "path": "library/01 - Inbox",
+   "line": "Nothing to import here: the Inbox holds what you capture"
+  },
+  {
    "path": "library/02 - Planning",
    "line": "Goal, project and habit setups to start from"
   },
@@ -65,5 +69,5 @@
    "size": 4703
   }
  ],
- "id": "29d34ba0bad5f53fee331cc44f7a7e75ab2961be"
+ "id": "8fc1784da0e3776e195d19b618a78d035c36fc63"
 }

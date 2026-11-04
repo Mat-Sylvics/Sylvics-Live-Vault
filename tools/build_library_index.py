@@ -9,8 +9,9 @@ A folder's README.md is its description in the Library window; it is not offered
 """
 import hashlib, json, os, sys
 
-FOLDERS = [  # the vault's folders, in order; the Inbox is left out: imports never go there
+FOLDERS = [  # the vault's folders, in order, so the library reads like the vault
     ('00 - Atlas', 'Maps and hubs to add to your Atlas'),
+    ('01 - Inbox', 'Nothing to import here: the Inbox holds what you capture'),
     ('02 - Planning', 'Goal, project and habit setups to start from'),
     ('03 - Areas', 'Tools for each part of life'),
     ('04 - Resources', 'Checklists, how-tos and reference sheets'),
