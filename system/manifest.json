@@ -1,8 +1,8 @@
 {
  "format": 1,
- "version": "0.9.0",
+ "version": "0.9.1",
  "released": "2026-11-04",
- "notes": "The first beta release.",
+ "notes": "Troubleshooting: the list of plugins to check is up to date (JS Engine is no longer used).",
  "files": [
   {
    "path": "00 - Atlas/00. Control Center.md",
@@ -1771,11 +1771,12 @@
   {
    "path": "99 - Meta/1. System/Guide/12 Troubleshooting and FAQ.md",
    "policy": "replace",
-   "sha256": "6bc2b69f92f9f900cc556da67b712207409232fb939cc1ea21b5b4b0a0423f3d",
+   "sha256": "be30e0eb7c19c00959bfcef47abf11d4f6c41acd71da597e7824617cea6c05d6",
    "known": [
-    "6bc2b69f92f9f900cc556da67b712207409232fb939cc1ea21b5b4b0a0423f3d"
+    "6bc2b69f92f9f900cc556da67b712207409232fb939cc1ea21b5b4b0a0423f3d",
+    "be30e0eb7c19c00959bfcef47abf11d4f6c41acd71da597e7824617cea6c05d6"
    ],
-   "size": 13698
+   "size": 13695
   },
   {
    "path": "99 - Meta/1. System/Guide/Cheat sheet.md",
