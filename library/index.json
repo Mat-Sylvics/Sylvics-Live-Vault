@@ -1,0 +1,69 @@
+{
+ "format": 1,
+ "folders": [
+  {
+   "path": "library/00 - Atlas",
+   "line": "Maps and hubs to add to your Atlas"
+  },
+  {
+   "path": "library/02 - Planning",
+   "line": "Goal, project and habit setups to start from"
+  },
+  {
+   "path": "library/03 - Areas",
+   "line": "Tools for each part of life"
+  },
+  {
+   "path": "library/04 - Resources",
+   "line": "Checklists, how-tos and reference sheets"
+  },
+  {
+   "path": "library/05 - Literature",
+   "line": "What books, articles and courses say"
+  },
+  {
+   "path": "library/06 - Permanent",
+   "line": "Ideas in one sentence, argued and linked"
+  },
+  {
+   "path": "library/07 - Journal",
+   "line": "Prompts and review guides for your journal"
+  },
+  {
+   "path": "library/08 - Archive",
+   "line": "Nothing to import here: the Archive holds your own finished work"
+  },
+  {
+   "path": "library/99 - Meta",
+   "line": "Extra templates and art"
+  }
+ ],
+ "files": [
+  {
+   "path": "library/04 - Resources/2. 🗄️ Reference Library/Sylvics Library - resources (placeholder).md",
+   "sha": "3beafd7b647b2cc5901d5d8cc3290e15f8021763",
+   "size": 890
+  },
+  {
+   "path": "library/05 - Literature/📖 Sylvics Library on how a library note is written.md",
+   "sha": "cf9f88f3cefa51ef94e927b29f69dae713ad76ce",
+   "size": 5291
+  },
+  {
+   "path": "library/05 - Literature/📖 Sylvics Library on what its literature notes will be.md",
+   "sha": "64153587cbb7ae2b2d671b509d36eb1985f11842",
+   "size": 5811
+  },
+  {
+   "path": "library/06 - Permanent/💎 A library note is a starting point, not a conclusion.md",
+   "sha": "3eacc3272c8cadde4e681462b09adbbc3fc7f483",
+   "size": 4945
+  },
+  {
+   "path": "library/06 - Permanent/💎 Ideas you import should be linked before they are kept.md",
+   "sha": "771d2285b07cbf7ae2d98f20568aec0db221ae45",
+   "size": 4703
+  }
+ ],
+ "id": "29d34ba0bad5f53fee331cc44f7a7e75ab2961be"
+}

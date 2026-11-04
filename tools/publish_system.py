@@ -5,7 +5,8 @@
 
 It lists the files that belong to Sylvics in the vault, hashes them the way the plugin does
 (src/neural-core/community/SystemUpdates.ts), and writes system/manifest.json. Every file whose hash differs from
-the previous release is copied to system/files/<vault path>; unchanged files are not copied again. Run it with
+the previous release is copied to system/files/<vault path>. With --full, every text file is stored too, so the
+repository holds a complete copy of Sylvics' pages (the art is added only when it changes). Run it with
 --dry-run first: it prints what would change and writes nothing.
 
 What belongs to Sylvics (example notes, flagged `demo: true`, never do):
@@ -78,6 +79,7 @@ def main():
     ap.add_argument('--version', required=True)
     ap.add_argument('--notes', default='')
     ap.add_argument('--dry-run', action='store_true')
+    ap.add_argument('--full', action='store_true', help='also store every unchanged text file, so any page can be restored')
     a = ap.parse_args()
     man_path = os.path.join(a.repo, 'system', 'manifest.json')
     prev = {}
@@ -106,6 +108,8 @@ def main():
             if p.get('policy') != policy:
                 print(f'  ! policy changed for {rel}: {p.get("policy")} -> {policy}')
         if p is not None and p['sha256'] != h or (p is None and prev):
+            copy.append(rel)
+        elif a.full and not binary and not os.path.exists(os.path.join(a.repo, 'system', 'files', rel)):
             copy.append(rel)
         e = {'path': rel, 'policy': policy, 'sha256': h, 'known': known, 'size': len(raw)}
         if binary:
